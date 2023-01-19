@@ -2,17 +2,23 @@
     "name": "designermadsen/application",
     "type": "project",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
+    "autoload":
+    {
+        "psr-4":
+        {
             "Designermadsen\\Application\\": "src/"
         }
     },
-    "authors": [
+    "authors":
+    [
         {
             "name": "Kent vejrup Madsen",
             "email": "kent.vejrup.madsen@designermadsen.dk"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require":
+    {
+
+    }
 }
