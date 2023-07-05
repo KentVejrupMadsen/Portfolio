@@ -13,6 +13,7 @@
 # Git attributes
 .gitignore text diff=gitignore export-ignore
 .gitattributes text diff=gitattributes export-ignore
+
 Changelog.md export-ignore
 
 /.github export-ignore
