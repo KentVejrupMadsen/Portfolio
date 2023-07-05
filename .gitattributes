@@ -1,18 +1,18 @@
-* text=auto
+* text=auto eol=lf
 
 # Scripts
-*.sh text diff=sh eol=lf
+*.sh text diff=sh
 *.ps1 text diff=ps1 eol=crlf
 
 # Documentation
 *.md text diff=markdown eol=crlf
 
 # Code
-*.php text diff=php eol=lf
+*.php text diff=php
 
 # Git attributes
-.gitignore text eol=lf export-ignore
-.gitattributes text eol=lf export-ignore
+.gitignore text diff=gitignore export-ignore
+.gitattributes text diff=gitattributes export-ignore
 Changelog.md export-ignore
 
-/.github eol=lf export-ignore
+/.github export-ignore
